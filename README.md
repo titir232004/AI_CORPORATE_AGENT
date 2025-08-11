@@ -7,14 +7,16 @@ It integrates natural language processing, data retrieval, and business logic to
 ## Project Structure
 ```
 AI_POWERED_CORPORATE_AGENT/
-├── app.py              # Main application entry point
-├── modules/
-│   ├── agent.py        # Core AI agent logic
-│   ├── tools.py        # Utility tools for AI tasks
-│   ├── config.py       # Configuration settings
-│   └── ...
-├── requirements.txt    # Python dependencies
-├── README.md           # Project documentation
+├── app.py                # Main application entry point
+├── checklists.py         # Checklist generation and processing
+├── classify_docs.py      # Document classification logic
+├── comment_doc.py        # Automated document commenting
+├── detect_flags.py       # Detects flags or issues in data
+├── load_references.py    # Loads and processes reference data
+├── templates/            # Templates for various document types
+├── templates_texts.json  # Template texts for automation
+├── Data Sources.pdf      # Supporting reference documents
+├── requirements.txt      # Python dependencies
 ```
 
 ## Installation
